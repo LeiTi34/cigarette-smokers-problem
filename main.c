@@ -1,7 +1,7 @@
 /************************************/
 /* Author: Alex Leidwein            */
 /* Name: Cigarette Smokers Problem  */
-/* Revision: 0.1                    */
+/* Revision: 1.0                    */
 /* Date: 01.12.2016                 */
 /************************************/
 

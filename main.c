@@ -12,7 +12,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <time.h>
-#include <errno.h>
 
 /** Defines */
 #define SMOKERS 3
@@ -122,7 +121,7 @@ void *agent(void * arg)
         break;
 
       default: // Error case
-        puts("ERROR wrong Agent ID: " + id);
+        printf("ERROR wrong Agent ID: %d\n", id);
         break;
     }
   }

@@ -79,6 +79,7 @@ void *smoker(void * arg)
 
       default: // Error case
         printf("ERROR: Invalid argument ID: %d\n", id);
+        exit(1);
         break;
     }
   }
